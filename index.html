@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Watch Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="script.js" defer></script> 
+ 
+ <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/serviceworker.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    })
+                    .catch(error => {
+                        console.log('ServiceWorker registration failed: ', error);
+                    });
+            });
+        }
+    </script>
+    
+
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1> Watch Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="product">
+                    <img src="image\watch1.png" alt="Watch 1">
+                    <h3>Rolex</h3>
+                    <p>$200</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="image\watch2.png" alt="Watch 2">
+                    <h3>Rolex</h3>
+                    <p>$250</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024  Watch Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

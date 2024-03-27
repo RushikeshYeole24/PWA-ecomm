@@ -1,0 +1,98 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1b1b2f; /* Dark purple background */
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: #1f1a38; /* Dark purple header */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #d8d8d8; /* Light purple header text */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #d8d8d8; /* Light purple navigation links */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.products {
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    background-color: #1f1a38; /* Dark purple product cards */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #d8d8d8; /* Light purple product title */
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: #8a63d2; /* Medium purple button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #6d42b5; /* Darker purple button on hover */
+}
+
+footer {
+    background-color: #1f1a38; /* Dark purple footer */
+    padding: 20px 0;
+    text-align: center;
+}

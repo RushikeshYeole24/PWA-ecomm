@@ -1,0 +1,24 @@
+{
+    "name": "Futuristic Watch Store",
+    "short_name": "Watch Store",
+    "start_url": "index.html",
+    "display": "standalone",
+    "theme_color": "#007bff",
+    "background_color": "#ffffff",
+    "icons": [
+      {
+        "src": "image/watch1.png",
+        "type": "image/png",
+        "sizes": "225x225"
+      },
+      {
+        "src": "image/watch2.png",
+        "type": "image/png",
+        "sizes": "225x225"
+      }
+      
+      
+    ],
+    "description": "Futuristic Watch Store for purchasing the latest and trendiest watches."
+  }
+  
